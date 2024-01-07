@@ -5,7 +5,7 @@ def big_words(input_word):
 
 
 def capitalize_words(s):
-    """функция сделает заглавной первую букву каждого слова"""
+    """СДЕЛАЛИ ФИКС БАГА (ИМИТАЦИЯ) функция сделает заглавной первую букву каждого слова"""
     words = s.split()
     capitalized_words = [word.capitalize()
 for word in words]
